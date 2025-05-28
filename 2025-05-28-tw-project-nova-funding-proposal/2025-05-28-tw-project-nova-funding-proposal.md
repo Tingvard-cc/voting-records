@@ -1,0 +1,72 @@
+# Governance Action Type
+
+Treasury withdrawals (TW)
+
+# Governance Action Name/Subject
+
+Project Nova funding proposal
+
+# Summary
+
+Project Nova's on-chain 149,000,000 ada request vs. its 146,000,000 ada proposal is judged unconstitutional. This discrepancy violates the Cardano Constitution (Art. III §5, IV §3, VII §4) as the on-chain action isn't identical to, nor specifically authorized like, the original proposal.
+
+# Rationale Statement
+
+The unconstitutionality of the on-chain action for 149,000,000 ada arises primarily from its direct conflict with several key articles of the Cardano Constitution, triggered by the 3,000,000 ada difference between the detailed off-chain proposal and the on-chain action.
+
+It's important to first clarify a related aspect of the proposal's content. The inclusion of a phrase such as "assuming a hypothetical Ada price of $1" within the abstract or rationale of an off-chain proposal is not inherently unconstitutional.
+
+Article III, Section 5 allows for "relevant supporting materials" as part of providing "Sufficient rationale." A hypothetical fiat conversion can offer context for an Ada-denominated request, aiding stakeholder understanding.
+
+Guardrail TREASURY-03a mandates that "Withdrawals from the Cardano Blockchain treasury must be denominated in Ada." As long as the proposal's operative request and the subsequent on-chain action are for a specific Ada amount, a contextual fiat reference in the proposal text does not violate this. The 'Project Nova' proposal requested a specific Ada amount.
+
+The Constitution does not explicitly prohibit such contextual references. The core constitutional issues stem from other discrepancies: Violation of Article III, Section 5 (Participatory and Decentralized Governance): This article is foundational to the integrity and transparency of governance actions. Identical Content Requirement: Article III, Section 5 explicitly mandates: "The content of every on-chain governance action must be identical to the final off-chain version of the proposed governance action." The on-chain action requesting 149,000,000 ada is demonstrably not identical in its financial content to the off-chain proposal that detailed and justified a need for 146,000,000 ada. This difference in a critical component—the amount of treasury funds to be withdrawn—constitutes a direct violation of this constitutional requirement. Sufficient Rationale Requirement: Furthermore, the same section also requires: "Sufficient rationale shall be provided to justify the requested change to the Cardano Blockchain. The rationale shall include, at a minimum, a title, abstract, reason for the proposal, and relevant supporting materials."1 The rationale provided with the off-chain "Project Nova" proposal (for 146,000,000 ada) would have justified that specific amount. An on-chain action for 149,000,000 ada effectively lacks the constitutionally required, properly submitted "sufficient rationale" for the additional 3,000,000 ada, as the "final off-chain version of the proposed governance action" (to which the on-chain action must be identical) is the document that contains the justification for the lower, specified amount. Contravention of Article IV, Section 3 (The Cardano Blockchain Ecosystem Budget): This article governs the process and conditions for treasury withdrawals, stating: "No withdrawals from the Cardano Blockchain treasury shall be permitted unless such withdrawals have been authorized and are being made pursuant to a budget for the Cardano Blockchain that is then in effect as required by the Cardano Blockchain Guardrails Appendix, and which has not been determined by the Constitutional Committee to be unconstitutional." The phrase "pursuant to a budget" implies that withdrawals must strictly align with the specific authorizations made under that budget. If "Project Nova" was authorized as part of an approved budget based on its detailed proposal for 146,000,000 ada, then an on-chain action attempting to withdraw 149,000,000 ada is not being made "pursuant to" the specific terms of that authorization for this particular project. Inconsistency with Article VII, Section 4 (Constitutional Committee): This article outlines the crucial role of the Constitutional Committee in affirming the constitutionality of proposals before they can be implemented on-chain: "No governance action...may be implemented on-chain unless a requisite percentage of the members of the Constitutional Committee as specified by the Guardrails shall have first determined and affirmed through an on-chain action that such proposal does not violate this Constitution." The Constitutional Committee reviews and affirms proposals. If the Committee reviewed and affirmed the "Project Nova" proposal based on its content, including the 146,000,000 ada funding request, this affirmation pertains to that specific proposal with that specific amount. An on-chain action that materially alters this proposal by requesting a different amount (149,000,000 ada) cannot be assumed to automatically carry the Committee's affirmation. The on-chain action, due to its changed financial request, represents a variation of the proposal that would not have undergone the precise constitutional scrutiny by the Committee for that specific higher sum.
+
+# Precedent Discussion
+
+While the Cardano governance system is evolving and specific case law "precedents" may be limited, the Constitution itself establishes foundational principles that act as guiding precedents for all governance actions. The articles cited above are not mere suggestions but are core tenets designed to ensure fairness, transparency, accountability, and adherence to due process.
+
+The Principle of Identicality (Art. III, Sec. 5): This sets a clear precedent that on-chain actions cannot deviate from their approved off-chain proposals. This is crucial for ensuring that what the community and governance bodies review and approve is what is actually executed. Any deviation undermines the review process and trust in the system.
+
+The Principle of Specific Authorization (Art. IV, Sec. 3): This establishes that treasury withdrawals must be tied to specific, authorized items within an approved budget. It prevents the use of general budget approval as a means to withdraw arbitrary or altered amounts for specific projects.
+
+The Principle of Constitutional Scrutiny (Art. VII, Sec. 4): This sets the precedent that proposals must undergo review by the Constitutional Committee as they are proposed. A material change to a proposal, such as an increase in requested funds, effectively creates a new proposal that would require its own distinct constitutional review.
+
+Allowing an on-chain action to proceed with a different amount than its corresponding off-chain proposal would set a dangerous precedent, eroding these foundational principles and potentially opening the door to inconsistencies and a lack of rigorous adherence to the constitutional governance framework.
+
+# Counterargument Discussion
+
+A net change limit and a budget has been approved. So far, 114,000,000 ada of a 350,000,000 ada Net change limit has been approved. This means the number itself [149,000,000 ada] is constitutional [with respect to the net change limit].
+
+This information indicates that the requested 149,000,000 ada likely fits within the broader, pre-approved fiscal boundaries established for the treasury (consistent with Guardrails like TREASURY-01a, TREASURY-02a, and TREASURY-04a concerning net change limits and approved budgets).
+
+However, while compliance with these general treasury management guardrails is a necessary condition, it is not a sufficient condition for the constitutionality of a specific governance action. A specific withdrawal must not only fit within overall treasury limits but must also meticulously comply with all other pertinent constitutional requirements. These include:
+
+The integrity of the specific proposal-to-action pipeline (Article III, Section 5: requiring identical content and that the rationale supports the exact content of the on-chain action).
+
+The specificity of the authorization for that particular withdrawal under the budget (Article IV, Section 3: requiring the action to be "pursuant to" its specific authorization, not just the overall budget).
+
+The precise scope of the Constitutional Committee's affirmation for the exact proposal being enacted (Article VII, Section 4).
+
+The argument that the amount is within the overall net change limit does not, therefore, negate the violations of these more specific constitutional provisions designed to ensure procedural correctness and fidelity for individual governance actions. The overall limit provides a ceiling for aggregate withdrawals, but each individual withdrawal must still independently satisfy all constitutional requirements related to its proposal, justification, and approval process.
+
+# Conclusion
+
+Given the direct and material conflict between the on-chain requested amount (149,000,000 ada) and the amount specified, detailed, and justified in the "Project Nova" off-chain proposal (146,000,000 ada), the on-chain governance action is deemed unconstitutional. This judgement is primarily rooted in the violation of Article III, Section 5, which demands identical content between off-chain proposals and on-chain actions and requires sufficient rationale for the action taken. The discrepancy also leads to inconsistencies with the principles of specific budgetary authorization (Article IV, Section 3) and the precise scope of Constitutional Committee affirmation (Article VII, Section 4). Adherence to overall treasury limits does not excuse these specific procedural and substantive constitutional failings.
+
+# Internal Vote
+
+- Constitutional: 0
+- Unconstitutional: 6
+- Abstain: 0
+- Did Not Vote: 0
+
+# References
+
+- [Cardano Blockchain Ecosystem Constitution](ipfs://bafkreiazhhawe7sjwuthcfgl3mmv2swec7sukvclu3oli7qdyz4uhhuvmy)
+  - Relevant Articles/Sections: Article III Section 5, Article IV Section 3, Article VII Section 4, Appendix I Section 3: Treasury Withdrawal Actions
+- [Project Nova Funding Proposal metadata](ipfs://bafkreiew3wxdtgytkrtg3h7jzlspgfiktpxz7x3onz2yaa345ekrg7jz5q)
+
+# Authors
+
+- Tingvard
